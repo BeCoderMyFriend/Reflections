@@ -14,3 +14,6 @@ Lets say you want to add a new feature to your application and you don't want it
 create a branch to test there as much as you like without damaging the original code and when printing the whole commit history
 you can see that these commits you made for a new feature are related to a branch you created other than the main branch. So in the future,
 if you want to add your newly created feature to the main branch, you can use Git merge to combine your branch with it.
+
+How do the diagrams help you visualize the branch structure?
+by using the diagrams you know the path of each branch leading to the main branch.

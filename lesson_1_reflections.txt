@@ -1,0 +1,26 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+by pinpointing each different change on a separate line
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+lets say we created a new version of our application with new features and it appeared that some of these features where not needed,
+so we can use the history to go back to an older version where we didn't have such features.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+In Git you have the ability to choose when to commit a change unlike Google Docs saving changes automatically.
+On the other hand, you can lose changes easily if you didn't commit them in Git
+unlike Google Docs where it creates a new checkpoint for every change you made.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because sometimes changing a feature in one file requires you to change other codes in different files, so Git will help you to
+save multiple changes in one commit, unlike Google Docs that support saving for each file change separately since making changes on one
+picture will not require you to make changes to other pictures in most of the cases.
+
+How can you use the commands git log and git diff to view the history of files?
+use git log to view the commit history for a repository, otherwise use git diff to compare two different commits.
+
+How might using version control make you more confident to make changes that could break something?
+Anytime you introduce a new feature for your program and a bug is discovered you can use the version control to go back exactly where the
+bug didn't happen.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I am a curious creature and i want to add this to my toolkits for a better management of my applications.

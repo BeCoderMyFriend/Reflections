@@ -21,3 +21,8 @@ by using the diagrams you know the path of each branch leading to the main branc
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 one branch containing new features from both branches, because it makes since we combining the two branches to become one so
 that the history of commits for both will show in the log.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The good thing is that Git will let you know that there is a conflict in merging before it commits
+so you will know where to resolve it exactly. If Git do it automatically for you, maybe it will choose the bad performance code instead
+of the good one so having the power to solve conflicts manually is much better.

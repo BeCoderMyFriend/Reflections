@@ -17,3 +17,7 @@ if you want to add your newly created feature to the main branch, you can use Gi
 
 How do the diagrams help you visualize the branch structure?
 by using the diagrams you know the path of each branch leading to the main branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+one branch containing new features from both branches, because it makes since we combining the two branches to become one so
+that the history of commits for both will show in the log.

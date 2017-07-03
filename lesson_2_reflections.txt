@@ -5,3 +5,12 @@ we need to do it so Git will use this repository to track changes to files and t
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is the pipeline between those two, it help us to know which changes to be committed as well as showing untracked files in the working
 directory, so without this area Git will never know what changes need to be saved or know if there are untracked files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You use it by adding each change separately to the staging area then commit them in order to have one commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Lets say you want to add a new feature to your application and you don't want it to break the whole application, then you need to
+create a branch to test there as much as you like without damaging the original code and when printing the whole commit history
+you can see that these commits you made for a new feature are related to a branch you created other than the main branch. So in the future,
+if you want to add your newly created feature to the main branch, you can use Git merge to combine your branch with it.

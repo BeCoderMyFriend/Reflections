@@ -8,3 +8,14 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Because in my opinion it is always better to choose when to pull new changes in order to avoid conflicts or maybe you just
 didn't like to add someone new feature to your local project.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+- Fork: I would use it, if I want to take someone old project and turn it into a new one plus fork will still give credit to the original author
+of the project. However, this command works only on the GitHub platform not locally.
+
+- Clone: I would use it if I want to work on someone project in order to contribute new features to it. This type of command works only
+on local and remote repositories.
+
+- Branch: Use this one if you want to create a new feature for a project, without affecting the original code. Plus you can choose whether
+you want to accept or discard them. Last but not least, this type of command works on remote and local repositories.

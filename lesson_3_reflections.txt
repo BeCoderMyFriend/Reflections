@@ -29,3 +29,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 By using an file hosting service like OneDrive to share the changes between your colleagues, but on the long run when the project becomes
 bigger it will be difficult to change things simultaneously, so it is better to use version control systems like Git to do reliable
 and faster changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You do the changes in a separate branch when you are afraid of breaking the main original code and you just want to test how the new
+feature will work before merging it into the main branch. However if you know ahead that these changes should be in the main branch then
+cut off the extra work in doing branches and add it immediately to it.

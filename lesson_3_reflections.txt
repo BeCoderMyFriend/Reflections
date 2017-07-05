@@ -19,3 +19,7 @@ on local and remote repositories.
 
 - Branch: Use this one if you want to create a new feature for a project, without affecting the original code. Plus you can choose whether
 you want to accept or discard them. Last but not least, this type of command works on remote and local repositories.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It helps you to know the state of difference between repository commits locally and remotely (ahead, behind, up-to-date, out-of-sync).

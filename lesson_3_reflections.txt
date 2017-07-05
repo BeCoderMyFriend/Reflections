@@ -23,3 +23,9 @@ you want to accept or discard them. Last but not least, this type of command wor
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It helps you to know the state of difference between repository commits locally and remotely (ahead, behind, up-to-date, out-of-sync).
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+By using an file hosting service like OneDrive to share the changes between your colleagues, but on the long run when the project becomes
+bigger it will be difficult to change things simultaneously, so it is better to use version control systems like Git to do reliable
+and faster changes.
